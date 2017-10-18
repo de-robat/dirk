@@ -29,26 +29,24 @@ We will start with a detailed analysis of the kernel's requirements. Decisions a
 After having reached a first release candidate, we think it wise to organise a code sprint with a larger team of developers. Not only will we get a lot of feedback on the work already delivered, but in a short time we might be able to implement even a couple of extra valuable features. Obviously, a code review of both the release candidate and the code sprint result are of utmost importance, especially checking the code for logical errors, like inconsistencies in concurrent process outputs. After fine-tuning, a second release candidate will be prepared, which will then be properly tested before being offered to our customers.
 
 In summary:
-<ul>
-<li>Stage 1: Object Model</li>
-<li>Stage 2: Technological Framework</li>
-<li>Stage 3: First Development Cycle</li>
-<li>Stage 4: Code Sprint (at <a href="http://www.heinrichshorst.com" target="_blank">Schloss Heinrichshorst</a>)</li>
-<li>Stage 5: Second Development Cycle</li>
-<li>Stage 6: Code Review & Testing</li>
-<li>Stage 7: Alpha Release</li>
-</ul>
+* Stage 1: Object Model
+* Stage 2: Technological Framework
+* Stage 3: First Development Cycle
+* Stage 4: Code Sprint (at [Schloss Heinrichshorst](http://www.heinrichshorst.com))
+* Stage 5: Second Development Cycle
+* Stage 6: Code Review & Testing
+* Stage 7: Alpha Release
 
-<h2>Trust Currency</h2>
-ÐIRK will be first used as the "Trust Currency" platform for Swarm Fund.<br />
-<br />
-Trust Currency is a critical part of the Swarm Fund implementation as it creates a second layer of accountability that preserves system trust. In other words, it creates an incorruptible layer of data that then is queryable for particular use cases. This multi-layered incentive model is a core part of Swarm intelligence models and implements formally the <a href="https://en.wikipedia.org/wiki/Stigmergy" target="_blank">stigmergic</a> elements found in other natural systems. In the Swarm Fund case, it is particularly applied to people soliciting and deploying funds, so that they cannot easily be scammed, and to provide the correct system incentives for positive behavior.<br />
-<br />
+## Trust Currency
+ÐIRK will be first used as the "Trust Currency" platform for Swarm Fund.
+
+Trust Currency is a critical part of the Swarm Fund implementation as it creates a second layer of accountability that preserves system trust. In other words, it creates an incorruptible layer of data that then is queryable for particular use cases. This multi-layered incentive model is a core part of Swarm intelligence models and implements formally the [stigmergic](https://en.wikipedia.org/wiki/Stigmergy) elements found in other natural systems. In the Swarm Fund case, it is particularly applied to people soliciting and deploying funds, so that they cannot easily be scammed, and to provide the correct system incentives for positive behavior.
+
+![TrustGraph](https://github.com/swarmfund/dirk/blob/master/imgs/trustgraph.png)
+
 As Swarm Fund ultimately envisions this trust layer as having an independent existence and to be shared by multiple development partners, ÐIRK is the perfect platform for implementing the Trust Currency.
 
-<h2>More info</h2>
-<strong>Dirk von Heinrichshorst</strong>
-<ul>
-<li><a href="mailto:dirk@heinrichshorst.com">dirk@heinrichshorst.com</a></li>
-<li>+49 (0)3936 397763</li>
-</ul>
+## More info
+**Dirk von Heinrichshorst**
+* [dirk@heinrichshorst.com](mailto:dirk@heinrichshorst.com)
+* +49 (0)3936 397763
