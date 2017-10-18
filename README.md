@@ -1,4 +1,7 @@
-# ÐIRK - Ðecentralized Identity & Reputation Kernel
+<p align="center">
+  <img src="https://github.com/swarmfund/dirk/blob/master/imgs/logo.png" title="ÐIRK"><br />
+  <strong>ÐIRK - Ðecentralized Identity & Reputation Kernel</strong>
+</p>
 
 ## Background
 Nobody will argue that there is a **growing need for secure and "valuable" digital identities**. Through the use of blockchain technologies, we now have the possibility to deliver exactly that on a public or private decentralized ledger. Some initiatives in this direction have been relatively successful, although none seem to have been able to reach a larger audience. So what have they been missing? In our opinion, most decentralized identity solutions today lack a proper identity valuation system. What makes you take care of your digital identity? Well, the reputation that you have built with it, on many different layers, for many different purposes. Building reputation takes time, sometimes years or longer, so you won't discard it so easily.
