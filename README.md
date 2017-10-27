@@ -21,15 +21,12 @@ When blockchain identities are created, they can be for real persons (having nam
 ## Ðecentralized reputation
 As with identity, it should also be possible to define your own classes of blockchain reputation. Compared to identities, reputation always has an embedded "value" field. Initial value can be set upon creation (so it can be low or high, depending on the creator's discretion). Afterwards, values can be changed by so-called "modifiers", who, optionally, can be triggered by "events". Modifiers are defined within the kernel, while types of events can be defined through API calls.
 
-Work needs to be put in the definition of the kernel's reputation modifiers. Their effect can be as simple as adding to or subtracting from the reputation's value, but more complex algorithms can be thought of. Advanced computational algorithms, based on an extended set of parameters, will increase the interest in using the Ðecentralized Identity & Reputation Kernel.
-
-## API call costs
-For each API call creating or altering data, a cost will be involved. This cost is based on the blockchain cost (most likely related to the object field types and the number of fields) and adds a profit for the use of the service. The target is to keep the overall cost relatively low, so it doesn't scare anyone from intensively using the kernel. Consequently, noticeable profit on API calls will be made with a higher rate of API calls.
+Work needs to be put in the definition of the kernel's reputation modifiers. Their effect can be as simple as adding to or subtracting from the reputation's value, but more complex algorithms can be thought of. Advanced computational algorithms, based on an extended set of parameters, will increase the interest in using the kernel.
 
 ## Roadmap
-We will start with a detailed analysis of the kernel's requirements. Decisions about must-haves and nice-to-haves will have to be made for the alpha release. After a thorough peer review, a proposal for ÐIRK's architecture can be written down. Afterwards, a technological framework will be put together. The decision to use an already existing smart contract platform like Ethereum, or to build an entirely new blockchain for ÐIRK's specific purposes, has not yet been made. Once a clear development path has been defined, the entire team will start implementing the MVP. Building our own (lightweight) blockchain will not necessarily slow down the development process.
+We will start with a detailed analysis of the kernel's requirements. Decisions about must-haves and nice-to-haves will have to be made for the alpha release. After a thorough peer review, a proposal for ÐIRK's architecture can be written down. Afterwards, a technological framework will be put together. The decision to use an already existing smart contract platform like Ethereum, or to build an entirely new blockchain for ÐIRK's specific purposes, has not yet been made. Once a clear development path has been defined, the entire team will start implementing the MVP. Building a custom (lightweight) blockchain will not necessarily slow down the development process.
 
-After having reached a first release candidate, we think it wise to organise a code sprint with a larger team of developers. Not only will we get a lot of feedback on the work already delivered, but in a short time we might be able to implement even a couple of extra valuable features. Obviously, a code review of both the release candidate and the code sprint result are of utmost importance, especially checking the code for logical errors, like inconsistencies in concurrent process outputs. After fine-tuning, a second release candidate will be prepared, which will then be properly tested before being offered to our customers.
+After having reached a first release candidate, it is thought wise to organise a code sprint with a larger team of developers. Not only will we get a lot of feedback on the work already delivered, but in a short time we might be able to implement even a couple of extra valuable features. Obviously, a code review of both the release candidate and the code sprint result are of utmost importance, especially checking the code for logical errors, like inconsistencies in concurrent process outputs. After fine-tuning, a second release candidate will be prepared and properly tested before being offered for implementation into Swarm Fund.
 
 In summary:
 * Stage 1: Object Model
@@ -47,7 +44,7 @@ Trust Currency is a critical part of the Swarm Fund implementation as it creates
 
 ![TrustGraph](https://github.com/swarmfund/dirk/blob/master/imgs/trustgraph.png)
 
-As Swarm Fund ultimately envisions this trust layer as having an independent existence and to be shared by multiple development partners, ÐIRK is the perfect platform for implementing the Trust Currency.
+As Swarm Fund ultimately envisions this trust layer as having an independent existence and to be shared by multiple development partners, ÐIRK is the perfect platform for implementing the Trust Currency component.
 
 ## More info
 **Dirk von Heinrichshorst**
